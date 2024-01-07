@@ -1,0 +1,210 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    background-color: rgb(30, 30, 30);
+    color: #eec328;
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnList, #btnMode{
+    width: 80px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+#btnList:hover{
+    background: transparent;
+    border: 4px solid rgb(230, 230, 230);
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#second{  
+    display: flex;
+    width: 100%;
+    flex: 1;
+    
+}
+
+#nav{
+    flex: 1.5;
+    background-color: #c3c2c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#proyectsFolder, #tasksFolder{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#proyectsFolder:hover{
+    color: #fff;
+    transition: 0.3s;
+    background-color: rgb(45, 45, 45);
+}
+
+#tasksFolder:hover{
+    color: #fff;
+    transition: 0.3s;
+    background-color: rgb(45, 45, 45);
+}
+
+#pageCont{
+    flex: 4;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2{
+    margin: 20px;
+    font-size: 32px;
+}
+
+#addTask{
+    width: 60%;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid grey;
+    width: 50%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#finished{
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+    text-decoration:line-through;
+    transition: 0.3s;
+    border: rgb(40, 40, 40);
+}
+
+.textContainer{
+    padding: 10px;
+}
+
+#btnTaskContent{
+    display: flex;
+    gap: 10px;
+}
+
+.status, .btnEdit, .trash{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#addProyect{
+    width: 60%;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.proyectFolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid grey;
+    width: 27%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.proyectFolder:hover{
+    background-color: gray;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#newSect{
+    flex: 4;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.backBtn{
+    width: 10%;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.backBtn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: #fff;
+    background-color: rgb(40, 40, 40);
+}
+
+.headerSec{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#ToN{
+    margin-left: 30%;
+}
+
+.btnCreate{
+    width: 30%;
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+    padding: 25px;
+    font-size: 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btnCreate:hover{
+    color: #fff;
+    transition: 0.5s;
+    background-color: rgb(45, 45, 45);
+}
+
+
